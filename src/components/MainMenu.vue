@@ -96,8 +96,8 @@ export default {
   line-height: 38px;
 }
 .main-menu {
-  padding-top: 35px !important;
-  padding-bottom: 35px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
 }
 .nav-link {
   font-size: 20px !important;

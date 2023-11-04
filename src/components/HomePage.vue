@@ -1,16 +1,19 @@
 <template>
   <MainMenu class="main-menu" />
+  <MainScreen />
   <FooterComponent class="footer-component" />
 </template>
 
 <script>
 import MainMenu from './MainMenu.vue'
 import FooterComponent from './FooterComponent.vue'
+import MainScreen from './MainScreen.vue'
 
 export default {
   components: {
     MainMenu,
-    FooterComponent
+    FooterComponent,
+    MainScreen
   }
 }
 
@@ -24,6 +27,6 @@ export default {
 
 .footer-component {
   max-width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 </style>

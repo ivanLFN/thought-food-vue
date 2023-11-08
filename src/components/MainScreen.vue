@@ -3,7 +3,7 @@
     <div class="curved upper">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1440 319">
+        viewBox="0 0 1000 200">
         <path
           fill="#f09a00"
           fill-opacity="1"
@@ -25,16 +25,58 @@
       <div class="tab-content contain" id="nav-tabContent">
         <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
           <div class="row d-flex">
-            <div class="col-lg-5 col-12" style="background-color: aqua;">
+            <div class="col-lg-5 col-12">
               <img class="image-school" src="/images/home-schools.jpg" alt="home-schools">
             </div>
-            <div class="col-lg-7 col-12" style="background-color: aquamarine;">
-              sdfd
+            <div class="col-lg-7 col-12 text-start">
+              <div class="header-browser">
+                Schools & Organizations
+              </div>
+              <div class="text-borwser">
+                Concentrate on what you do best. Leave all the administrative tasks related to organizing student lunches to us. Food For Thought does everything from procuring restaurants and caterers and checking all their meals to ensure compliance with Ontario Policy/Program Memorandum 150 guidelines, to collecting payment from parents. Finally, an all-in-one solution!
+              </div>
+              <div class="learn-more-borwser">
+                <a class="learn-more" href="#">Learn More</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+          <div class="row d-flex">
+            <div class="col-lg-5 col-12">
+              <img class="image-school" src="/images/home-providers.jpg" alt="home-providers">
+            </div>
+            <div class="col-lg-7 col-12 text-start">
+              <div class="header-browser">
+                Restaurants & Caterers
+              </div>
+              <div class="text-borwser">
+                Want to expand your lunch time customer base, and increase income? Can you make a smaller portion of meals for children? If so, we want you! Get free marketing when hundreds of parents/guardians and staff browse through our website to look for healthy meals for their children.
+              </div>
+              <div class="learn-more-borwser">
+                <a class="learn-more" href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+          <div class="row d-flex">
+            <div class="col-lg-5 col-12">
+              <img class="image-school" src="/images/home-parents.jpg" alt="home-parents">
+            </div>
+            <div class="col-lg-7 col-12 text-start">
+              <div class="header-browser">
+                Parents & Guardians
+              </div>
+              <div class="text-borwser">
+                There's a lot more out there than what your organization is serving! Have a say in what your organization chooses for lunch. With Food For Thought, pick and choose the days you want your child to participate instead of locking in for the whole term.
+              </div>
+              <div class="learn-more-borwser">
+                <a class="learn-more" href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <svg
@@ -79,7 +121,7 @@ body {
 }
 
 .curved.upper {
-  background: white;
+  background-image: url("../../public/images/home-hero.jpg");
 }
 
 .nav-link {
@@ -103,6 +145,26 @@ body {
 
 .tab-content {
   margin-top: 5rem !important;
+}
+
+.header-browser {
+  font-size: 1.9rem;
+  color: #003046;
+  font-weight: 800 !important;
+}
+
+.text-borwser {
+  margin-top: 5rem;
+  color: #003046;
+}
+
+.learn-more-borwser {
+  margin-top: 5rem;
+}
+
+.learn-more {
+  color: #003046 !important;
+  font-weight: 600;
 }
 
 </style>

@@ -22,7 +22,6 @@ export default {
 <style>
 .main-menu {
   max-width: 100%;
-  overflow: hidden;
 }
 
 .footer-component {

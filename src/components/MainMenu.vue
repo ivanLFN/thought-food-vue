@@ -1,5 +1,8 @@
 <template>
-  <div class="row">
+  <div
+    class="row"
+    style="  border-bottom: 1px solid #DADADA;"
+  >
     <div class="col-lg-10 offset-lg-1">
       <nav
         class="main-menu navbar navbar-expand-lg navbar-light bg-light"

@@ -64,7 +64,7 @@
       role="tabpanel"
       aria-labelledby="nav-profile-tab"
     >
-      sdf
+      <PaymentInfoTab />
     </div>
     <div
       id="nav-contact"
@@ -79,10 +79,12 @@
 
 <script>
 import ChildrenTab from './ChildrenTab.vue'
+import PaymentInfoTab from './PaymentInfoTab.vue'
 export default {
   name: 'AccountTabs',
   components: {
-    ChildrenTab
+    ChildrenTab,
+    PaymentInfoTab
   }
 }
 </script>

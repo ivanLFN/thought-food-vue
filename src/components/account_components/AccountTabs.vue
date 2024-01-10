@@ -9,16 +9,28 @@
       role="tablist"
     >
       <button
-        id="nav-home-tab"
+        id="nav-children-tab"
         class="nav-link active"
         data-bs-toggle="tab"
-        data-bs-target="#nav-home"
+        data-bs-target="#nav-children"
         type="button"
         role="tab"
-        aria-controls="nav-home"
+        aria-controls="nav-children"
         aria-selected="true"
       >
         Children
+      </button>
+      <button
+        id="nav-payment-tab"
+        class="nav-link"
+        data-bs-toggle="tab"
+        data-bs-target="#nav-payment"
+        type="button"
+        role="tab"
+        aria-controls="nav-payment"
+        aria-selected="false"
+      >
+        Payment Information
       </button>
       <button
         id="nav-profile-tab"
@@ -30,18 +42,6 @@
         aria-controls="nav-profile"
         aria-selected="false"
       >
-        Payment Information
-      </button>
-      <button
-        id="nav-contact-tab"
-        class="nav-link"
-        data-bs-toggle="tab"
-        data-bs-target="#nav-contact"
-        type="button"
-        role="tab"
-        aria-controls="nav-contact"
-        aria-selected="false"
-      >
         Profile
       </button>
     </div>
@@ -51,12 +51,20 @@
     class="tab-content"
   >
     <div
-      id="nav-home"
+      id="nav-children"
       class="tab-pane fade show active"
       role="tabpanel"
-      aria-labelledby="nav-home-tab"
+      aria-labelledby="nav-children-tab"
     >
       <ChildrenTab />
+    </div>
+    <div
+      id="nav-payment"
+      class="tab-pane fade"
+      role="tabpanel"
+      aria-labelledby="nav-payment-tab"
+    >
+      <PaymentInfoTab />
     </div>
     <div
       id="nav-profile"
@@ -64,15 +72,7 @@
       role="tabpanel"
       aria-labelledby="nav-profile-tab"
     >
-      <PaymentInfoTab />
-    </div>
-    <div
-      id="nav-contact"
-      class="tab-pane fade"
-      role="tabpanel"
-      aria-labelledby="nav-contact-tab"
-    >
-      asdfasdfasdf
+      <ProfileTab />
     </div>
   </div>
 </template>
@@ -80,11 +80,13 @@
 <script>
 import ChildrenTab from './ChildrenTab.vue'
 import PaymentInfoTab from './PaymentInfoTab.vue'
+import ProfileTab from './ProfileTab.vue'
 export default {
   name: 'AccountTabs',
   components: {
     ChildrenTab,
-    PaymentInfoTab
+    PaymentInfoTab,
+    ProfileTab
   }
 }
 </script>

@@ -20,7 +20,7 @@
       <nav class="tabs">
         <div
           id="nav-tab"
-          class="nav nav-tabsjustify-content-center"
+          class="nav nav-tabs justify-content-center"
           role="tablist"
         >
           <button

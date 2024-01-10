@@ -1,0 +1,13 @@
+version: '3'
+services:
+  thought-food-vue:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - PATH=$PATH:/app/node_modules/.bin
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/app
+    command: npm run serve

@@ -89,6 +89,7 @@ export default {
 .footer {
   background-color: #eeeeee;
   padding: 4rem 0;
+  margin-top: 4rem;
 }
 .video-link-img {
   margin: 35px 25px;

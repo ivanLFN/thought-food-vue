@@ -7,3 +7,42 @@
   max-width: 100%;
   overflow-x: hidden;
 }
+
+.required-mark {
+  color: red;
+}
+
+.text-input {
+  color: #003046;
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding: 8px;
+}
+
+.combo-box {
+  color: #003046 !important;
+  font-weight: 400 !important;
+  font-size: 1.1rem !important;
+  padding: 8px !important;
+}
+
+.orange-link {
+  font-size: 18px;
+  background-color: #EE7E00;
+  color: white;
+  text-decoration: none;
+  padding: 5px 50px;
+  border-radius: 20px;
+  border: 1px solid #EE7E00 !important;
+  line-height: 22px;
+}
+
+.white-link {
+  font-size: 18px;
+  background-color: #ffffff;
+  color: #003046;
+  text-decoration: none;
+  padding: 5px 36px;
+  border-radius: 20px;
+  border: 1px solid #003046 !important;
+}

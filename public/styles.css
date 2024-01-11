@@ -1,0 +1,9 @@
+.main-menu {
+  max-width: 100%;
+  background-color: aqua;
+}
+
+.footer-component {
+  max-width: 100%;
+  overflow-x: hidden;
+}

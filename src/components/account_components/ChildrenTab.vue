@@ -94,8 +94,8 @@
             </form>
           </div>
           <div class="d-flex justify-content-center my-5">
-            <div class="row">
-              <div class="col">
+            <div class="row align-items-center">
+              <div class="col text-center">
                 <a
                   href="#"
                   class="white-link"
@@ -103,7 +103,7 @@
                   aria-label="Close"
                 >Cancel</a>
               </div>
-              <div class="col">
+              <div class="col text-center">
                 <a
                   href="#"
                   type="submit"
@@ -112,6 +112,39 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-5">
+    <div class="child-item py-5 row d-flex">
+      <div class="col-4 child-name">
+        Courtney Johnson
+      </div>
+      <div class="col-7 child-sсhool">
+        Ancaster High Secondary School <br>
+        Grade A-10
+      </div>
+      <div class="col-1">
+        <div class="row">
+          <a
+            class="col"
+            href="#"
+          >
+            <img
+              src="../../../public/images/Group.png"
+              alt="Group"
+            >
+          </a>
+          <a
+            class="col"
+            href="#"
+          >
+            <img
+              src="../../../public/images/Union.png"
+              alt="Union"
+            >
+          </a>
         </div>
       </div>
     </div>
@@ -224,5 +257,25 @@ export default {
   padding: 5px 36px;
   border-radius: 20px;
   border: 1px solid #003046 !important;
+}
+
+.mt-6 {
+  margin-top: 6rem;
+}
+
+.child-name {
+  color: #003046 !important;
+  font-weight: 600 !important;
+  font-size: 1.7rem !important;
+}
+
+.child-sсhool {
+  color: #003046 !important;
+  font-weight: 500 !important;
+  font-size: 1.7rem !important;
+}
+
+.child-item {
+  border-bottom: 1px solid #DADADA;
 }
 </style>

@@ -1,9 +1,11 @@
 <template>
-  <MainMenu class="main-menu" />
-  <div class="container mt-5">
-    <AccountTabs />
+  <div class="app-container">
+    <MainMenu class="main-menu" />
+    <div class="container mt-5">
+      <AccountTabs />
+    </div>
+    <FooterComponent class="footer-component" />
   </div>
-  <FooterComponent class="footer-component" />
 </template>
 
 <script>
@@ -22,3 +24,5 @@ export default {
 
 <style>
 </style>
+
+<style src="../../public/styles.css"></style>

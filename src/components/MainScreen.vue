@@ -1,6 +1,7 @@
 <template>
   <div class="curved">
     <div class="curved upper">
+      <br>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1000 200"
@@ -202,6 +203,8 @@ body {
   background-image: url("../../public/images/home-hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  line-height: 300px;
+  font-size: 0;
 }
 
 .nav-link {
@@ -246,5 +249,4 @@ body {
   color: #003046 !important;
   font-weight: 600;
 }
-
 </style>

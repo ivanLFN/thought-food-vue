@@ -33,7 +33,7 @@
     </div>
   </div>
 
-  <div class="row d-flex mt-3">
+  <div class="row d-flex mt-3 mb-6">
     <div class="col-4">
       <img
         class="w-100 mb-3"
@@ -67,5 +67,9 @@ export default {
 .sort {
   margin-right: 3px;
   font-weight: 250;
+}
+
+.mb-6 {
+  margin-bottom: 6rem;
 }
 </style>

@@ -4,6 +4,7 @@
     <div class="container mt-5">
       <RestarantDescription />
       <VotingComponent />
+      <RestarantOffers />
     </div>
     <FooterComponent class="footer-component" />
   </div>
@@ -14,6 +15,7 @@ import MainMenu from '@/components/MainMenu.vue'
 import FooterComponent from '@/components/FooterComponent.vue'
 import RestarantDescription from '../components/restarants_components/RestarantDescription.vue'
 import VotingComponent from '../components/restarants_components/VotingComponent.vue'
+import RestarantOffers from '../components/restarants_components/RestarantOffers.vue'
 
 export default {
   name: 'RestarantsPage',
@@ -21,7 +23,8 @@ export default {
     MainMenu,
     FooterComponent,
     RestarantDescription,
-    VotingComponent
+    VotingComponent,
+    RestarantOffers
   }
 }
 </script>

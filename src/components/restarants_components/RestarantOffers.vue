@@ -54,7 +54,7 @@ export default {
 
 .allergi {
   padding: 8px 16px;
-  border: 1px solid #DADADA;
+  border: 1px solid #9E9E9E;
   border-radius: 30px;
   gap: 5;
   margin-right: 20px;

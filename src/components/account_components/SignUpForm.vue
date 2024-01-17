@@ -8,6 +8,18 @@
     <form @submit.prevent="signIn">
       <div class="mb-4">
         <div class="text">
+          Username:
+        </div>
+        <input
+          id="username"
+          v-model="username"
+          class="text-input w-100"
+          type="text"
+          name="username"
+        >
+      </div>
+      <div class="mb-4">
+        <div class="text">
           Email:
         </div>
         <input
@@ -134,7 +146,7 @@ export default {
       password: '',
       repeatPassword: '',
       role: 'parent',
-      username: 'test'
+      username: ''
     }
   },
   methods: {

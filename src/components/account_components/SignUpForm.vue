@@ -125,6 +125,7 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
   name: 'SignUpForm',
   data () {
@@ -132,12 +133,26 @@ export default {
       email: '',
       password: '',
       repeatPassword: '',
-      role: 'parent'
+      role: 'parent',
+      username: 'test'
     }
   },
   methods: {
-    signIn () {
-      console.log('Signing in...', { email: this.email, password: this.password, role: this.role })
+    async signIn () {
+      try {
+        const response = await axios.post(
+          'http://127.0.0.1:8000/api/users/',
+          {
+            email: this.email,
+            password: this.password,
+            user_type: this.role,
+            username: this.username
+          }
+        )
+        console.log('User created:', response.data)
+      } catch (error) {
+        console.error('Error creating user:', error)
+      }
     }
   }
 }
